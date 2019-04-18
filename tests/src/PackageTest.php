@@ -9,8 +9,8 @@ declare(strict_types=1);
 
 namespace Ixocreate\Test\Validator;
 
-use Ixocreate\Application\ConfiguratorRegistryInterface;
-use Ixocreate\Application\ServiceRegistryInterface;
+use Ixocreate\Application\Service\Configurator\ConfiguratorRegistryInterface;
+use Ixocreate\Application\Service\Registry\ServiceRegistryInterface;
 use Ixocreate\ServiceManager\ServiceManagerInterface;
 use Ixocreate\Validation\Package\Package;
 use PHPUnit\Framework\TestCase;
