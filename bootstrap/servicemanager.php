@@ -3,8 +3,8 @@ declare(strict_types=1);
 
 namespace Ixocreate\Validation;
 
-use Ixocreate\ServiceManager\ServiceManagerConfigurator;
-use Ixocreate\Validation\Validator;
+use Ixocreate\Application\Service\ServiceManagerConfigurator;
 
 /** @var ServiceManagerConfigurator $serviceManager */
+
 $serviceManager->addFactory(Validator::class);
