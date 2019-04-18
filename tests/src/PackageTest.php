@@ -12,7 +12,7 @@ namespace Ixocreate\Test\Validator;
 use Ixocreate\Application\ConfiguratorRegistryInterface;
 use Ixocreate\Application\ServiceRegistryInterface;
 use Ixocreate\ServiceManager\ServiceManagerInterface;
-use Ixocreate\Package\Validation\Package;
+use Ixocreate\Validation\Package\Package;
 use PHPUnit\Framework\TestCase;
 
 class PackageTest extends TestCase

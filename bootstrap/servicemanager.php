@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Ixocreate\Package\Validation;
+namespace Ixocreate\Validation\Package;
 
 use Ixocreate\ServiceManager\ServiceManagerConfigurator;
 use Ixocreate\Validation\Validator;
