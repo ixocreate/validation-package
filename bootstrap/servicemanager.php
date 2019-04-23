@@ -1,4 +1,10 @@
 <?php
+/**
+ * @link https://github.com/ixocreate
+ * @copyright IXOCREATE GmbH
+ * @license MIT License
+ */
+
 declare(strict_types=1);
 
 namespace Ixocreate\Validation;
@@ -6,5 +12,4 @@ namespace Ixocreate\Validation;
 use Ixocreate\Application\Service\ServiceManagerConfigurator;
 
 /** @var ServiceManagerConfigurator $serviceManager */
-
 $serviceManager->addFactory(Validator::class);
