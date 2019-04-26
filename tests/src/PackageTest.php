@@ -7,7 +7,7 @@
 
 declare(strict_types=1);
 
-namespace Ixocreate\Test\Validator;
+namespace Ixocreate\Test\Validaton;
 
 use Ixocreate\Application\Configurator\ConfiguratorRegistryInterface;
 use Ixocreate\Application\Service\ServiceRegistryInterface;
@@ -17,6 +17,9 @@ use PHPUnit\Framework\TestCase;
 
 class PackageTest extends TestCase
 {
+    /**
+     * @covers \Ixocreate\Validation\Package
+     */
     public function testPackage()
     {
         $configuratorRegistry = $this->getMockBuilder(ConfiguratorRegistryInterface::class)->getMock();
