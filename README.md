@@ -1,7 +1,7 @@
 # IXOCREATE Validation Package
 
 [![Build Status](https://travis-ci.com/ixocreate/validation-package.svg?branch=master)](https://travis-ci.com/ixocreate/validation-package)
-[![Coverage Status](https://coveralls.io/repos/github/ixocreate/validation-package/badge.svg?branch=develop)](https://coveralls.io/github/ixocreate/validation-package?branch=develop)
+[![Coverage Status](https://coveralls.io/repos/github/ixocreate/validation-package/badge.svg?branch=master)](https://coveralls.io/github/ixocreate/validation-package?branch=master)
 [![Packagist](https://img.shields.io/packagist/v/ixocreate/validation-package.svg)](https://packagist.org/packages/ixocreate/validation-package)
 [![PHP Version](https://img.shields.io/packagist/php-v/ixocreate/validation-package.svg)](https://packagist.org/packages/ixocreate/validation-package)
 [![License](https://img.shields.io/github/license/ixocreate/validation-package.svg)](LICENSE)
